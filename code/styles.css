@@ -709,11 +709,10 @@
 
 /* Social Icons */
 .social__icon--link {
-    /* Affect the icon directly */
-    text-decoration: none;
     color: white;
     font-size: 1.5rem;
     margin: 0 0.5rem;
+    text-align: center;
 }
 
 .social__media {
@@ -728,8 +727,29 @@
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    margin: 40x auto 0 auto;
+    margin: 40px auto 0 auto;
 }
+
+.social__icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.social__logo {
+    color: #fff;
+    justify-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
 
 
 website__rights {
