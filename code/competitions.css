@@ -1,0 +1,22 @@
+.competitions__services{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+.competitions__services__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 10px gold;
+    color: yellow;
+    padding: 100px;
+}
+
+.competitions__services__paragraph{
+    font-size: 48px;
+}

@@ -1,0 +1,98 @@
+.aboutus__services{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    min-height: 75vh;
+    padding-bottom: 2rem;
+    border: 3px solid cyan;  
+}
+
+.aboutus__services__container{
+    /*Height controls how far text goes down*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 10px gold;
+    
+   
+
+}
+
+.aboutus__services__card {
+    /*Height controls how far text goes down. Image height control still not found*/
+    height: auto;
+    width: 400px;
+    margin: 0rem;
+    border: 5px purple;
+    background-image: black;
+    background-size: cover;
+    position: relative;
+    
+}
+/* These image & text sizes work for mac */
+
+.aboutus__text__overlay {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    text-align: left;
+    color: white;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.aboutus__text__overlay button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    
+    border-radius: 4px;
+    background: #f77062;
+    font-size: 1rem;
+    cursor: pointer;
+    transform: translateY(-140px);
+  
+    
+}
+.aboutus__text__overlay p {
+    margin: 0;
+    width: 300px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 4px;
+    transform: translateY(-120px);
+}
+
+.aboutus__text__overlay h2 {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 24px;
+    
+    border-radius: 4px;
+    transform: translateY(-120px);
+}
+#outreach2__img {
+    margin: 8rem;
+    height: 400px;
+    width: 600px;
+    translate: -350px;
+}
+
+#comp1__img {
+    margin: 8rem;
+    height: 400px;
+    width: 600px;
+    translate: -100px;
+}
+
+
+
