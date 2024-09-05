@@ -15,7 +15,8 @@
         <!-- Navbar Section -->
         <nav class="navbar">
             <div class="navbar__container">
-                <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>  
+                <img  src ="/Images/scarab.ico" id = "icon" />
+                <a  id="navbar__logo"><i></i>  
                     Hazen Robotics</a>
                 <div class="navbar__toggle" id="mobile-menu">
                     <span class="bar"></span>
@@ -43,7 +44,7 @@
                         <a href="schedule.html" class="navbar__links">Schedule</a>
                     </li>
                     <li class="navbar__btn">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4jGLMXC2JgyJV2oKbl1qVMGO8Yuy4F0HQyB1ZSmFzwdjASw/viewform?embedded=true" target="_blank"class="button">Questions</a>
+                        <a href="https://hazenboosters.sportngin.com/register/form/370983779#_ga=2.150388275.405217654.1608577765-820515645.1608577765" target="_blank"class="button">Donations</a>
                         
                     </li>
                 </ul>
@@ -65,17 +66,18 @@
         </div>
         <!-- Modules Section -->
         <div class="services">
-            <h1>Modules</h1>
+            
             <div class="services__container">
+                
                 <div class="services__card">
                     
-                    <div class = "image-container">
-                        <img src = "/images/Outreach1.png" alt = "outreach1" >
+                    <div class = "index__image-container">
+                        <img src = "/images/Outreach1.png" id = "outreach1__image" >
                     </div>
                     <div class="text-overlay">
                         <h2>Volunteering</h2>
                         <p>Gain community service and soft skills</p>
-                        <!--Button Link does not work when id is gone. Fix this-->
+                       
                         <button id = "volunteering-btn" onclick="redirect_to_page('volunteering.html')">Click</button>
                     </div>
                    
@@ -83,7 +85,7 @@
                 <div class="services__card">
                     
                     <div class = "image-container">
-                        <img src = "/images/comp3.png" alt = "Placeholder">
+                        <img src = "/images/comp3.png" id = "comp3__image">
                     </div>
                         <div class = "text-overlay">
                             <h2>Schedule</h2>
@@ -93,7 +95,7 @@
                 </div>
                 <div class="services__card">
                     <div class = "image-container">
-                        <img src = "/images/Roles.png" alt = "Roles">
+                        <img src = "/images/Roles.png" id = "roles__image">
                     </div>
                     <div class = "text-overlay">
                         <h2>Roles</h2>
@@ -111,10 +113,11 @@
                     <div class="footer__link--items">
                         
                             
-                                <h2>About Us</h2>
+                                
+                                <!-- <a  class="footer__link--items" style = "font-size: 30px; color:yellow; ">About Us </a > -->
                                 <a href="sponsors.html" class="footer__link--items">Sponsors</a>
                                 <a href="alumini.html" class="footer__link--items">Alumini</a>
-                                <a href="skills.html" class="footer__link--items">Skills gained</a>
+                                <a href="skills.html" class="footer__link--items">Skills</a>
                                 <a href="https://www.firstinspires.org/robotics/ftc/what-is-first-tech-challenge" class="footer__link--items">FTC</a>
                                 <a href="clubexpectations.html" class="footer__link--items" >Expectations</a>
                            
@@ -144,9 +147,7 @@
                     <a href="mailto:hazenrobotics8693@gmail.com" class="social__icon--link" target="_blank" >
                         <i class="fas fa-envelope"></i>
                     </i> 
-                    </a>
-                    
-                    
+                </a>
                 </div>
             </div>
         <script src="app.js"></script>
