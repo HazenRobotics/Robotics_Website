@@ -18,13 +18,12 @@
 }
 
 .icon {
-    background-image: url(/Images/scarab.ico);
+    background-image: url(/Images/scarab.svg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    width: 100%; 
-    height: 100%; 
-    transform: scale(0.3);
+    transform: scale(0.1);
+    
     
 }
 
