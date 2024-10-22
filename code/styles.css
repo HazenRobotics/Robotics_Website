@@ -118,6 +118,19 @@
         transition: all 0.3s ease;
 }
 
+.aboutus__text__overlay{
+   
+    font-size: 32px;
+}
+
+.clubroles h1{
+    font-size: 60px;
+    color: red; 
+    background-color:blue; 
+     text-align: center;
+}
+
+
 
 @media screen and (max-width: 960px) {
             .navbar__container {
@@ -683,6 +696,22 @@
         margin-top: 20px; 
         margin-bottom: 0; 
     }
+
+    #outreach2__img{
+        
+       transform: scale(0.8) translateX(150px) scaleY(1.7);
+        
+    }
+
+    #comp1__img{
+        transform: scaleX(0.8) translateX(-170px) scaleY(1.5);
+    }
+
+    .aboutus__text__overlay{
+        transition: translateX(-100px);
+    }
+
+    
     
 }
 
