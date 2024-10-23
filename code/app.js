@@ -19,19 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
         
 
         volunteeringBtn.addEventListener('click', () => {
-            window.location.href = '/voluntering.html';
+            window.location.href = 'volunteering.html';
         });
         competitionsBtn.addEventListener('click', () => {
-            window.location.href= '/competitions.html'
+            window.location.href= 'competitions.html'
         })
         scheduleBtn.addEventListener('click', () => {
-            window.location.href = '/schedule.html';
+            window.location.href = 'schedule.html';
         });
         if(missionBtn)
         {
         missionBtn.addEventListener('click', () => {
             console.log("Mission button clicked")
-            window.location.href = '/ourmission.html';
+            window.location.href = 'ourmission.html';
         });
     
     }else {
